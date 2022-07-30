@@ -1,0 +1,25 @@
+{
+  "name": "vgshop",
+  "version": "1.0.0",
+  "description": "1.INSTALL TOOLS\r 2.CREATE REACT APP\r 3.CREATE GIT REPOSITRY",
+  "main": "index.js",
+  "dependencies": {
+    "express-async-handler": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bharathks07/mern-vgshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bharathks07/mern-vgshop/issues"
+  },
+  "homepage": "https://github.com/Bharathks07/mern-vgshop#readme"
+}
